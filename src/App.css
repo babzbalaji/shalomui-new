@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.top-nav {
+  background-color: #ffbb007f;
+}
+.top-nav .navbar {
+  background-color: #ffbb006f !important;
+}
+.top-nav .navbar h1 {
+  font-size: 25px;
+  font-weight: 800;
+}
+.top-nav .navbar span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.homepage h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.navbar .nav-link {
+  color: #000 !important;
+  font-weight: 500;
+}
+.herosection {
+  background-color: #000;
+}
+.herosection h1 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.herosection p {
+  color: #fff;
+  padding-top: 20px;
+}
+
+.eventlist-header h1 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #000000b8;
+  padding-top: 20px;
+}
+.eventlist-header .events_yelow {
+  color: #ffbb00;
+}
+
+.eventlists img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.eventlists .card {
+  border: 0px !important;
+}
+.eventlists .card-content a {
+  color: #000;
+  text-decoration: none;
+}
+.eventlists .card-content {
+  background: #ffffff;
+  position: relative;
+  z-index: 2;
+  margin: -80px 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #ffbb00;
+}
+.eventlists .event_title {
+  font-weight: 800;
+}
+.eventlists .event_date {
+  font-size: 14px;
+  font-weight: 500;
+}
+.eventlists .event_desc {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #0000009b;
+}
+.eventlists .bottom_text {
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #0000009b;
+  padding: 5px 10px;
+}
+.eventlists .bi {
+  color: #ffbb00;
+}
