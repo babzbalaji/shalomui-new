@@ -1,7 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.form-control {
+  border-radius: 0px;
+}
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  outline: black !important;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #ffbb00;
+  color: #000;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  border: 1px solid #ffbb00;
+  background-color: #ffbb00;
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #ffbb00;
+  font-weight: 600;
+}
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:focus:active {
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #ffbb00;
+  color: #000;
+  background-color: #ffbb00;
 }
 .top-nav {
   background-color: #ffbb007f;
@@ -17,6 +55,13 @@ body {
   font-size: 20px;
   font-weight: 500;
 }
+.footer {
+  background-color: #282828;
+  color: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
 .homepage h6 {
   font-size: 16px;
   font-weight: normal;
@@ -29,15 +74,39 @@ body {
   background-color: #000;
 }
 .herosection h1 {
-  font-size: 50px;
+  font-size: 70px;
   color: #fff;
   font-weight: 700;
-  text-align: center;
-  padding-top: 200px;
 }
-
 .herosection p {
   color: #fff;
+  padding-top: 10px;
+}
+.herosection .herosection_events {
+  background-color: #ffbb00;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 40px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.what_we_do {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.what_we_do .section_heading {
+  font-weight: 500;
+  font-size: 20px;
+}
+.what_we_do .section_desctiption {
+  font-weight: 500;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.what_we_do p {
+  color: #0000008f;
   padding-top: 20px;
 }
 
@@ -97,4 +166,60 @@ body {
 }
 .eventlists .bi {
   color: #ffbb00;
+}
+
+.signup {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.signup .row .col-md-7 {
+  background-color: #fff;
+  padding: 30px;
+}
+.signup h1 {
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #ffbb00;
+}
+
+.signin {
+  height: 80vh;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.signin .row .col-md-6 {
+  background-color: #fff;
+  padding: 30px;
+}
+.signin h1 {
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #ffbb00;
+}
+
+.page_title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-bottom: 60px;
+}
+.registration_page_form .posted-event-list h6 {
+  background-color: #ffbb00;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.reset_password h3 {
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #ffbb00;
 }

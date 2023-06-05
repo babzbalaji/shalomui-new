@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -6,7 +7,6 @@ export default function Navbar() {
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/#">
           <h1>Shalom</h1>
-          <span>A Beliver's Hub</span>{" "}
         </a>
         <button
           class="navbar-toggler"
@@ -23,25 +23,30 @@ export default function Navbar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/">
                 Home
-              </a>
+              </Link>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="./eventlist">
+              <Link class="nav-link" to="/eventlist">
                 Events
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/chruchlist">
+                Chruch
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/signin">
                 Sign in
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/signup">
                 Sign up
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
