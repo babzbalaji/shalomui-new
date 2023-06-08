@@ -3,7 +3,7 @@ import React from "react";
 export default function chruch_details_modify() {
   return (
     <div>
-      <div className="eventpost mt-4">
+      <div className="chruch_details_modify mt-4">
         <div className="container">
           <div className="row">
             <div className="col-12">

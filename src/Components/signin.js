@@ -16,7 +16,6 @@ export default function signin() {
             <div className="row justify-content-center">
               <div className="col-md-6">
                 <h1>Sign in</h1>
-
                 <form>
                   <div class="form-row">
                     <div class="col">

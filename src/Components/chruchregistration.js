@@ -7,7 +7,7 @@ export default function chruchregistration() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1 className="page_title">Chruch Details Modify</h1>
+              <h1 className="page_title">Chruch Registration</h1>
             </div>
           </div>
           <form>
