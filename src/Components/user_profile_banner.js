@@ -24,17 +24,17 @@ export default function user_profile_banner() {
               </div>
             </div>
             <div className="form-row">
-              <div className="col-3">
+              <div className="col-4 col-md-3 col-lg-3">
                 <button className="btn btn-primary mt-3 mb-4">
                   Send Message
                 </button>
               </div>
-              <div className="col-3">
+              <div className="col-4 col-md-3 col-lg-3">
                 <button className="btn btn-primary mt-3 mb-4">
                   Post Chruch
                 </button>
               </div>
-              <div className="col-3">
+              <div className="col-4 col-md-3 col-lg-3">
                 <button className="btn btn-primary mt-3 mb-4">
                   Post Event
                 </button>
@@ -52,13 +52,13 @@ export default function user_profile_banner() {
           </div>
         </div>
         <div className="form-row">
-          <div className="col-2">
+          <div className="col-4 col-md-3 col-lg-3">
             <button className="btn btn-primary mt-3 mb-4">Chruch</button>
           </div>
-          <div className="col-2">
+          <div className="col-4 col-md-3 col-lg-3">
             <button className="btn btn-primary mt-3 mb-4">Event</button>
           </div>
-          <div className="col-2">
+          <div className="col-4 col-md-3 col-lg-3">
             <button className="btn btn-primary mt-3 mb-4">Shalom</button>
           </div>
         </div>

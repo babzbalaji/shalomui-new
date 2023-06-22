@@ -5,9 +5,9 @@ export default function Navbar() {
   return (
     <div className="top-nav">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/#">
+        <Link class="navbar-brand" to="/">
           <h1>Shalom</h1>
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"

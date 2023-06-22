@@ -48,7 +48,7 @@ export default function Eventlist() {
       <div className="eventlists mt-5">
         <div className="container">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
               <div class="card">
                 <div class="card-body p-0">
                   <img
@@ -84,7 +84,7 @@ export default function Eventlist() {
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
               <div class="card">
                 <div class="card-body p-0">
                   <img
@@ -119,7 +119,7 @@ export default function Eventlist() {
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
               <div class="card">
                 <div class="card-body p-0">
                   <img
@@ -154,7 +154,7 @@ export default function Eventlist() {
               </div>
             </div>
 
-            <div class="col-md-4 mt-3">
+            <div class="col-md-6 col-lg-4 mt-3">
               <div class="card">
                 <div class="card-body p-0">
                   <img
@@ -189,7 +189,7 @@ export default function Eventlist() {
               </div>
             </div>
 
-            <div class="col-md-4 mt-3">
+            <div class="col-md-6 col-lg-4 mt-3">
               <div class="card">
                 <div class="card-body p-0">
                   <img
@@ -224,7 +224,7 @@ export default function Eventlist() {
               </div>
             </div>
 
-            <div class="col-md-4 mt-3">
+            <div class="col-md-6 col-lg-4 mt-3">
               <div class="card">
                 <div class="card-body p-0">
                   <img
