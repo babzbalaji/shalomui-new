@@ -42,10 +42,14 @@ body {
   background-color: #ffbb00;
 }
 .top-nav {
-  background-color: #ffbb007f;
+  background-color: #1d8ed0;
 }
 .top-nav .navbar {
-  background-color: #ffbb006f !important;
+  background-color: #1d8ed0 !important;
+}
+
+.top-nav .navbar img {
+  height: 60px;
 }
 .top-nav .navbar h1 {
   font-size: 25px;
@@ -70,7 +74,7 @@ body {
   font-weight: normal;
 }
 .navbar .nav-link {
-  color: #000 !important;
+  color: #fff !important;
   font-weight: 500;
 }
 .herosection {

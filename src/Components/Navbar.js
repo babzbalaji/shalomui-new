@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="top-nav">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg ">
         <Link class="navbar-brand" to="/">
-          <h1>Shalom</h1>
+          <img src="../images/shalom_logo.jpg" alt="" />
         </Link>
         <button
           class="navbar-toggler"
