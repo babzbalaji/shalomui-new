@@ -13,14 +13,14 @@ body {
   outline: black !important;
   box-shadow: none;
   border-radius: 0px;
-  border: 1px solid #ffbb00;
+  border: 1px solid #63b1bd;
   color: #000;
 }
 
 .btn-primary {
   border-radius: 5px;
-  border: 1px solid #ffbb00;
-  background-color: #ffbb00;
+  border: 1px solid #63b1bd;
+  background-color: #63b1bd;
   color: #000;
   font-size: 17px;
   font-weight: 600;
@@ -29,7 +29,7 @@ body {
   border-radius: 5px;
   border: 1px solid #fff;
   background-color: #000;
-  color: #ffbb00;
+  color: #63b1bd;
   font-weight: 600;
 }
 .btn-primary:active,
@@ -37,15 +37,15 @@ body {
 .btn-primary:focus:active {
   box-shadow: none;
   border-radius: 0px;
-  border: 1px solid #ffbb00;
+  border: 1px solid #63b1bd;
   color: #000;
-  background-color: #ffbb00;
+  background-color: #63b1bd;
 }
 .top-nav {
-  background-color: #1d8ed0;
+  background-color: #63b1bd;
 }
 .top-nav .navbar {
-  background-color: #1d8ed0 !important;
+  background-color: #63b1bd !important;
 }
 
 .top-nav .navbar img {
@@ -58,6 +58,9 @@ body {
 .top-nav .navbar span {
   font-size: 20px;
   font-weight: 500;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-light .navbar-toggler {
   border: 0px;
@@ -91,7 +94,7 @@ body {
   padding-top: 10px;
 }
 .herosection .herosection_events {
-  background-color: #ffbb00;
+  background-color: #63b1bd;
   color: #000;
   text-decoration: none;
   padding: 10px 40px;
@@ -125,7 +128,7 @@ body {
   padding-top: 20px;
 }
 .eventlist-header .events_yelow {
-  color: #ffbb00;
+  color: #63b1bd;
 }
 
 .eventlists img {
@@ -151,7 +154,7 @@ body {
   overflow: hidden;
   border-top-width: 3px;
   border-top-style: solid;
-  border-top-color: #ffbb00;
+  border-top-color: #63b1bd;
 }
 .eventlists .event_title {
   font-weight: 800;
@@ -173,7 +176,7 @@ body {
   padding: 5px 10px;
 }
 .eventlists .bi {
-  color: #ffbb00;
+  color: #63b1bd;
 }
 
 .signup {
@@ -190,7 +193,7 @@ body {
   text-align: center;
   font-size: 30px;
   font-weight: 600;
-  background-color: #ffbb00;
+  background-color: #63b1bd;
 }
 
 .signin {
@@ -208,7 +211,7 @@ body {
   text-align: center;
   font-size: 30px;
   font-weight: 600;
-  background-color: #ffbb00;
+  background-color: #63b1bd;
 }
 
 .page_title {
@@ -219,7 +222,7 @@ body {
   margin-bottom: 60px;
 }
 .registration_page_form .posted-event-list h6 {
-  background-color: #ffbb00;
+  background-color: #63b1bd;
   padding: 20px;
   margin-top: 30px;
 }
@@ -229,7 +232,7 @@ body {
   margin-bottom: 20px;
   text-align: center;
   font-weight: 600;
-  background-color: #ffbb00;
+  background-color: #63b1bd;
 }
 
 @media (max-width: 600px) {
@@ -246,5 +249,8 @@ body {
   }
   .user_profile_banner .btn-primary {
     font-size: 15px;
+  }
+  .top-nav .navbar img {
+    height: 30px;
   }
 }

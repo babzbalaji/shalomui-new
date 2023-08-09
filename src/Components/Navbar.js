@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="top-nav">
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <Link class="navbar-brand" to="/">
           <img src="../images/shalom_logo.jpg" alt="" />
         </Link>
